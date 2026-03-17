@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/sync-wearables",
+      "schedule": "0 6 * * *"
+    },
+    {
+      "path": "/api/cron/compute-scores",
+      "schedule": "0 0 * * 1"
+    }
+  ]
+}
